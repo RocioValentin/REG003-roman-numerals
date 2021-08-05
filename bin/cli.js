@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-/* const { parse, stringify } = require('../src/api');
+const { parse, stringify } = require('../src/api');
 const { help } = require('./help');
 
 const [,, ...args] = process.argv;
@@ -20,9 +20,9 @@ if (args.length === 1) {
   console.log('datos incorrectos');
 }
 
-// console.log(`Hello world ${args}`); */
+// console.log(`Hello world ${args}`);
 
-const { parse, stringify } = require('../src/api');
+/* const { parse, stringify } = require('../src/api');
 const { help } = require('./help');
 
 let input;
@@ -46,4 +46,4 @@ process.stdin.on('data', (data) => {
 
 // process.stdin.setEncoding('utf-8');
 // process.stdin.resume();
-// process.stdout.write('hello world');
+// process.stdout.write('hello world'); */
