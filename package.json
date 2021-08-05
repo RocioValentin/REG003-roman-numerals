@@ -2,9 +2,37 @@
   "name": "roman-numerals",
   "version": "1.0.0",
   "scripts": {
-    "test": "jest"
+    "test": "jest --verbose --coverage ",
+    "eslint": "eslint --ext .js",
+    "pretest": "npm run eslint",
+    "start": "nodemon  ./src/api.js"
   },
   "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
     "jest": "^27.0.6"
+  },
+  "description": "## Índice",
+  "main": "index.js",
+  "bin": {
+    "roman-numerals": "cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RocioValentin/REG003-roman-numerals.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "RocioValentin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RocioValentin/REG003-roman-numerals/issues"
+  },
+  "homepage": "https://github.com/RocioValentin/REG003-roman-numerals#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "nodemon": "^2.0.12"
   }
 }
