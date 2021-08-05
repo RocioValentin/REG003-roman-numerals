@@ -1,5 +1,5 @@
 {
-  "name": "roman-numerals",
+  "name": "rocio-valentin-roman-numerals",
   "version": "1.0.0",
   "scripts": {
     "test": "jest --verbose --coverage ",
@@ -16,7 +16,7 @@
   "description": "## Índice",
   "main": "index.js",
   "bin": {
-    "roman-numerals": "cli.js"
+    "roman-numerals": "./bin/cli.js"
   },
   "repository": {
     "type": "git",
