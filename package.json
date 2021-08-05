@@ -1,6 +1,6 @@
 {
   "name": "rocio-valentin-roman-numerals",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "test": "jest --verbose --coverage ",
     "eslint": "eslint --ext .js",
@@ -16,7 +16,7 @@
   "description": "## Índice",
   "main": "index.js",
   "bin": {
-    "roman-numerals": "./bin/cli.js"
+    "roman-numerals": "bin/cli.js"
   },
   "repository": {
     "type": "git",
